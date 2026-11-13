@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tekst EI kuulu koodi ega manifesti, vaid ressurssi: nii saab selle
+         tõlkida ilma koodi puutumata (vt values-et/strings.xml). -->
+    <string name="app_name">Fog Map</string>
+    <string name="discovered">Discovered: %1$.1f%%</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kvalifikaator `-et` valitakse süsteemi keele järgi automaatselt -->
+    <string name="app_name">Udukaart</string>
+    <string name="discovered">Avastatud: %1$.1f%%</string>
+</resources>

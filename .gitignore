@@ -1,0 +1,26 @@
+# ===== Näiteprojektist (5 rida) =====
+*.iml
+.gradle/
+build/
+local.properties
+.idea/
+
+# ===== LISATUD: saladused (näitest puudu) =====
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+google-services.json
+.env
+
+# ===== LISATUD: muu, mis ei kuulu hoidlasse =====
+# Kotlin 2.x loob projekti juurde oma vahemälukausta
+.kotlin/
+# Ehitatud paketid, kui need satuvad väljapoole build/ kausta (nt release/)
+*.apk
+*.aab
+# Android Studio profileerija salvestised
+captures/
+# Operatsioonisüsteemi prügi
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kvalifikaator `-night` valitakse SÜSTEEMI poolt, kui seade on tumedas
+         režiimis. Koodis ei ole ühtki if-lauset — see ongi ressursisüsteemi mõte. -->
+    <style name="Theme.Udukaart" parent="android:Theme.DeviceDefault.NoActionBar" />
+</resources>

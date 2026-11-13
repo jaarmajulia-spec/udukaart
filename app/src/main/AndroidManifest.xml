@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- KONTROLLTÖÖ 1, ÜLESANNE 2: selles manifestis on NELI viga.
+     Kaks viga takistavad paigaldust või käivitust; kaks avalduvad alles hiljem.
+     Ära muuda midagi muud peale nende nelja. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Parandus 3: võrguõigus (OSM-i tänavavõrgu allalaadimine, kaardiplaadid) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Udukaart">
+
+        <!-- Parandus 1: android:exported (Android 12+ nõue intent-filtriga tegevusele)
+             Parandus 2: klassi nimi MainActivty -> MainActivity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

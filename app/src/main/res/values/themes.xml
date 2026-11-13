@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compose joonistab kogu sisu ise, seega XML-teemat on vaja ainult akna
+         raami jaoks. HELE variant; tume elab kaustas values-night/. -->
+    <style name="Theme.Udukaart" parent="android:Theme.DeviceDefault.Light.NoActionBar" />
+</resources>
