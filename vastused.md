@@ -1,7 +1,5 @@
 # Kontrolltöö 1 — Arenduskeskkond ja esimene rakendus
 
-<!-- KUSTUTA SEE KOMMENTAAR ENNE ESITAMIST. Täida koht märgisega ✏️ (ülesanne 4). -->
-
 ## Ülesanne 1 — Elutsükkel Logcatis
 
 Logcati filter: `package:mine tag:Udukaart` — nähtavad on ainult minu rakenduse read ja kõik kannavad sama silti.
@@ -124,7 +122,7 @@ dependencies {
 
 Versioon on kirjas ainult ühes kohas — `[versions]` plokis. Pärast Gradle Synci ehitus õnnestus. `minSdk` on tagasi `29` peal.
 
-**Mis juhtus `minSdk = 34` juures.** Katsetasin kahe emulaatoriga: API 36 (Android 16) ja API 30 (Android 11). ✏️ Pärast `minSdk = 34` ja Synci märgiti API 30 emulaator seadmete rippmenüüs ühildumatuks (nimekirjast kadus __ seade); API 36 emulaator jäi alles. Need seadmed kasutavad Android 13 või vanemat (API < 34). `minSdk` on madalaim API tase, millele rakenduse saab paigaldada; kõik vanemad seadmed muutuvad ühildumatuks — Android Studio märgib need ja Play pood ei näita rakendust neile üldse.
+**Mis juhtus `minSdk = 34` juures.** Katsetasin kahe emulaatoriga: API 36 (Android 16) ja API 30 (Android 11). Pärast `minSdk = 34` ja Synci märgiti API 30 emulaator seadmete rippmenüüs ühildumatuks (nimekirjast kadus 1 seade); API 36 emulaator jäi alles. Need seadmed kasutavad Android 13 või vanemat (API < 34). `minSdk` on madalaim API tase, millele rakenduse saab paigaldada; kõik vanemad seadmed muutuvad ühildumatuks — Android Studio märgib need ja Play pood ei näita rakendust neile üldse.
 
 **`compileSdk`, `minSdk` ja `targetSdk` vahe**
 

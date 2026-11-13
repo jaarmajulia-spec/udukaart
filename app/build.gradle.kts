@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId = "ee.ut.udukaart"
-        minSdk = 29          // Android 10 ja uuem
+        minSdk = 29 // Android 10 ja uuem
         targetSdk = 36
         versionCode = 1
         versionName = "0.1"
